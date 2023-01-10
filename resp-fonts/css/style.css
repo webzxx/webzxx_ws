@@ -1,0 +1,42 @@
+html {
+    font-size: 100%;
+}
+
+.sqaure {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border: 5px solid green;
+}
+
+/* md devices */
+@media (max-width: 991px) {
+    p {
+        font-size: 3rem;
+    }
+    .sqaure {
+        width: 200px;
+        height: 200px;
+        background-color: red;
+        border: 5px solid green;
+    }
+}
+/* sm devices */
+@media (max-width: 767px) {
+    p {
+        font-size: 2rem;
+    }
+    .sqaure {
+        width: 150px;
+        height: 150px;
+        background-color: red;
+        border: 5px solid green;
+    }
+}
+
+/* xs devices */
+@media (max-width: 575px) {
+    p {
+        font-size: 1rem;
+    }
+}
