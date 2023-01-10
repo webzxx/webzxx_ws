@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(../assets/fonts/Roboto/Roboto-Italic.ttf);
+}
+
+.lead {
+    font-family: 'Roboto';
+}
+
+.reference {
+    font: 'Merriweather';
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(../assets/fonts/Poppins/Poppins-Bold.ttf);
+}
+
+.sub-lead {
+    font-family: 'Poppins';
+}
+.img {
+    border: 5px solid red;
+    float: left; 
+}
+
+.img1, .img2 {
+    border: 5px solid green;
+}
+
+.floated {
+    background-color: red;
+    width: 100px;
+    border: 5px solid red;
+    float: right;
+}
+<form action=""> 
+<label for="" >First Name:</label>
+.reference {
+    border: 5px solid green;
+    clear: none;
+}
+
+.pos1 {
+    border: 5px solid red;
+    position: static;
+    top: 50px;
+}
+
+.pos2 {
+    border: 5px solid green;
+    position: relative;
+    top: 50px;
+}
+
+.pos3 {
+    border: 5px solid blue;
+}
+
+
+
+
+
+
+
+
+
+
+.abs1 {
+    border: 5px solid green;
+    display: block;
+}
+
+.abs2 {
+    border: 5px solid red;
+    position: fixed;
+    top: calc(50vh - (100px / 2 ));
+    left: calc(50vw - (100px / 2 ));
+}
+
+.abs3 {
+    border: 5px solid blue;
+}
+
+.preferendis {
+    /* display: none; */
+    visibility: hidden;
+}
