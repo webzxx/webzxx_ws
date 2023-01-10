@@ -7,26 +7,16 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
   </head>
-  <body style="font-family: Arial, Helvetica, sans-serif;">
-    <style>
-      th,
-      td {
-        font-size: smaller;
-        line-height: 1.5;
-      }
-      tbody {
-        border: 1px solid black;
-      }
-      table {
-        border-collapse: collapse !important;
-      }
-    </style>
-    <h3 style="text-align: center; margin-top: 5px;">BIO-DATA</h3>
-    <table width="100%" style="max-width: 580px; margin:auto;">
-      <tbody style="border: 0px;">
+  <body>
+    <!-- <style>
+      
+    </style> -->
+    <h3 id="biodata-header">BIO-DATA</h3>
+    <table id="outer-table">
+      <tbody>
         <tr width="100%">
           <td>
-            <table width="100%">
+            <table>
               <thead>
                 <tr height="0px">
                   <td width="20%"></td>
@@ -38,37 +28,37 @@
               </thead>
               <tbody>
                 <tr>
-                  <td colspan="3" bgcolor="black" style="color: white">
+                  <td colspan="3" class="heading-part">
                     PERSONAL DETAILS
                   </td>
                   <td colspan="1"></td>
                   <!-- <td></td> -->
-                  <td rowspan="5" style="border: 1px solid black"></td>
+                  <td rowspan="5" class="bdr-1s-black"></td>
                 </tr>
                 <tr>
-                  <td colspan="3" style="border-bottom: 1px solid black">
+                  <td colspan="3" class="bdr-bot-1s-black">
                     <small>Position Desired:</small>
                   </td>
                   <!-- <td></td> -->
-                  <td colspan="1" style="border-bottom: 1px solid black">
+                  <td colspan="1" class="bdr-bot-1s-black">
                     Date:
                   </td>
                   <!-- <td></td>
                     <td></td> -->
                 </tr>
                 <tr>
-                  <td colspan="3" style="border-bottom: 1px solid black">
+                  <td colspan="3" class="bdr-bot-1s-black">
                     Name:
                   </td>
                   <!-- <td></td> -->
-                  <td colspan="1" style="border-bottom: 1px solid black">
+                  <td colspan="1" class="bdr-bot-1s-black">
                     Sex:
                   </td>
                   <!-- <td></td>
                     <td></td> -->
                 </tr>
                 <tr>
-                  <td colspan="4" style="border-bottom: 1px solid black">
+                  <td colspan="4" class="bdr-bot-1s-black">
                     City Address:
                   </td>
                   <!-- <td></td>
@@ -77,7 +67,7 @@
                     <td></td> -->
                 </tr>
                 <tr>
-                  <td colspan="4" style="border-bottom: 1px solid black">
+                  <td colspan="4" class="bdr-bot-1s-black">
                     Provincial Address:
                   </td>
                   <!-- <td></td>
@@ -86,73 +76,73 @@
                     <td></td> -->
                 </tr>
                 <tr>
-                  <td colspan="3" style="border-bottom: 1px solid black">
+                  <td colspan="3" class="bdr-bot-1s-black">
                     Date of Birth:
                   </td>
                   <!-- <td></td> -->
-                  <td colspan="2" style="border-bottom: 1px solid black">
+                  <td colspan="2" class="bdr-bot-1s-black">
                     Place:
                   </td>
                   <!-- <td></td>
                     <td></td> -->
                 </tr>
                 <tr>
-                  <td colspan="3" style="border-bottom: 1px solid black">
+                  <td colspan="3" class="bdr-bot-1s-black">
                     Civil Status:
                   </td>
                   <!-- <td></td> -->
-                  <td colspan="2" style="border-bottom: 1px solid black">
+                  <td colspan="2" class="bdr-bot-1s-black">
                     Citizenship:
                   </td>
                   <!-- <td></td>
                     <td></td> -->
                 </tr>
                 <tr>
-                  <td colspan="3" style="border-bottom: 1px solid black">
+                  <td colspan="3" class="bdr-bot-1s-black">
                     Height:
                   </td>
                   <!-- <td></td> -->
-                  <td colspan="2" style="border-bottom: 1px solid black">
+                  <td colspan="2" class="bdr-bot-1s-black">
                     Weight:
                   </td>
                   <!-- <td></td>
                     <td></td> -->
                 </tr>
                 <tr>
-                  <td colspan="3" style="border-bottom: 1px solid black">
+                  <td colspan="3" class="bdr-bot-1s-black">
                     Religion:
                   </td>
                   <!-- <td></td> -->
-                  <td colspan="2" style="border-bottom: 1px solid black">
+                  <td colspan="2" class="bdr-bot-1s-black">
                     Telephone:
                   </td>
                   <!-- <td></td>
                     <td></td> -->
                 </tr>
                 <tr>
-                  <td colspan="3" style="border-bottom: 1px solid black">
+                  <td colspan="3" class="bdr-bot-1s-black">
                     Color of Hair:
                   </td>
                   <!-- <td></td> -->
-                  <td colspan="2" style="border-bottom: 1px solid black">
+                  <td colspan="2" class="bdr-bot-1s-black">
                     Color of Eyes:
                   </td>
                   <!-- <td></td>
                     <td></td> -->
                 </tr>
                 <tr>
-                  <td colspan="3" style="border-bottom: 1px solid black">
+                  <td colspan="3" class="bdr-bot-1s-black">
                     Spouse:
                   </td>
                   <!-- <td></td> -->
-                  <td colspan="2" style="border-bottom: 1px solid black">
+                  <td colspan="2" class="bdr-bot-1s-black">
                     Occupation:
                   </td>
                   <!-- <td></td>
                 <td></td> -->
                 </tr>
                 <tr>
-                  <td colspan="5" style="border-bottom: 1px solid black">
+                  <td colspan="5" class="bdr-bot-1s-black">
                     Address:
                   </td>
                   <!-- <td></td>
@@ -161,7 +151,7 @@
                     <td></td> -->
                 </tr>
                 <tr>
-                  <td colspan="5" style="border-bottom: 1px solid black">
+                  <td colspan="5" class="bdr-bot-1s-black">
                     Number of Children, their names and date of birth:
                   </td>
                   <!-- <td></td>
@@ -170,7 +160,7 @@
                     <td></td> -->
                 </tr>
                 <tr>
-                  <td colspan="5" style="border-bottom: 1px solid black">
+                  <td colspan="5" class="bdr-bot-1s-black">
                     &nbsp;
                   </td>
                   <!-- <td></td>
@@ -179,7 +169,7 @@
                     <td></td> -->
                 </tr>
                 <tr>
-                  <td colspan="5" style="border-bottom: 1px solid black">
+                  <td colspan="5" class="bdr-bot-1s-black">
                     &nbsp;
                   </td>
                   <!-- <td></td>
@@ -188,29 +178,29 @@
                     <td></td> -->
                 </tr>
                 <tr>
-                  <td colspan="3" style="border-bottom: 1px solid black">
+                  <td colspan="3" class="bdr-bot-1s-black">
                     Father's Name:
                   </td>
                   <!-- <td></td> -->
-                  <td colspan="2" style="border-bottom: 1px solid black">
+                  <td colspan="2" class="bdr-bot-1s-black">
                     Occupation:
                   </td>
                   <!-- <td></td> -->
                   <!-- <td></td> -->
                 </tr>
                 <tr>
-                  <td colspan="3" style="border-bottom: 1px solid black">
+                  <td colspan="3" class="bdr-bot-1s-black">
                     Mother's Name
                   </td>
                   <!-- <td></td> -->
-                  <td colspan="2" style="border-bottom: 1px solid black">
+                  <td colspan="2" class="bdr-bot-1s-black">
                     Occupation:
                   </td>
                   <!-- <td></td> -->
                   <!-- <td></td> -->
                 </tr>
                 <tr>
-                  <td colspan="5" style="border-bottom: 1px solid black">
+                  <td colspan="5" class="bdr-bot-1s-black">
                     Languages od Dialects ayou can speak or write:
                   </td>
                   <!-- <td></td>
@@ -219,7 +209,7 @@
                     <td></td> -->
                 </tr>
                 <tr>
-                  <td colspan="5" style="border-bottom: 1px solid black">
+                  <td colspan="5" class="bdr-bot-1s-black">
                     Person to be contacted in case of emergency:
                   </td>
                   <!-- <td></td>
@@ -228,7 +218,7 @@
                     <td></td> -->
                 </tr>
                 <tr>
-                  <td colspan="5" style="border-bottom: 1px solid black">
+                  <td colspan="5" class="bdr-bot-1s-black">
                     His/Her Address and Telephone:
                   </td>
                   <!-- <td></td>
@@ -242,7 +232,7 @@
         </tr>
         <tr>
           <td>
-            <table width="100%" style="margin-top: 10px">
+            <table class="m-t-10">
               <thead>
                 <tr height="0px">
                   <td width="20%"></td>
@@ -252,51 +242,51 @@
               </thead>
               <tbody>
                 <tr>
-                  <td colspan="2" bgcolor="black" style="color: white">
+                  <td colspan="2" class="heading-part">
                     EDUCATIONAL BACKGROUND
                   </td>
                   <td colspan="3">&nbsp;</td>
                 </tr>
                 <tr>
-                  <td style="border-bottom: 1px solid black">&nbsp;</td>
+                  <td class="bdr-bot-1s-black">&nbsp;</td>
                   <td
-                    style="text-align: center; border-bottom: 1px solid black"
+                    class="txt-center bdr-bot-1s-black"
                   >
                     Name & Address of School
                   </td>
                   <td
-                    style="text-align: center; border-bottom: 1px solid black"
+                    class="txt-center bdr-bot-1s-black"
                   >
                     Year Graduated
                   </td>
                 </tr>
                 <tr>
-                  <td colspan="3" style="border-bottom: 1px solid black">
+                  <td colspan="3" class="bdr-bot-1s-black">
                     Elementary:
                   </td>
                 </tr>
                 <tr>
-                  <td colspan="3" style="border-bottom: 1px solid black">
+                  <td colspan="3" class="bdr-bot-1s-black">
                     High School:
                   </td>
                 </tr>
                 <tr>
-                  <td colspan="3" style="border-bottom: 1px solid black">
+                  <td colspan="3" class="bdr-bot-1s-black">
                     Vocational:
                   </td>
                 </tr>
                 <tr>
-                  <td colspan="3" style="border-bottom: 1px solid black">
+                  <td colspan="3" class="bdr-bot-1s-black">
                     College:
                   </td>
                 </tr>
                 <tr>
-                  <td colspan="3" style="border-bottom: 1px solid black">
+                  <td colspan="3" class="bdr-bot-1s-black">
                     &emsp;&emsp;Course:
                   </td>
                 </tr>
                 <tr>
-                  <td colspan="3" style="border-bottom: 1px solid black">
+                  <td colspan="3" class="bdr-bot-1s-black">
                     Special Skills:
                   </td>
                 </tr>
@@ -306,7 +296,7 @@
         </tr>
         <tr>
           <td>
-            <table width="100%" style="margin-top: 10px">
+            <table class="m-t-10">
               <thead>
                 <tr height="0px">
                   <td width="15%"></td>
@@ -317,33 +307,33 @@
               </thead>
               <tbody>
                 <tr>
-                  <td colspan="3" bgcolor="black" style="color: white">
+                  <td colspan="3" class="heading-part">
                     EMPLOYMENT RECORD
                   </td>
                 </tr>
-                <tr style="text-align: center">
-                  <td style="border-bottom: 1px solid black">From</td>
-                  <td style="border-bottom: 1px solid black">To</td>
-                  <td style="border-bottom: 1px solid black">Position</td>
-                  <td style="border-bottom: 1px solid black">Company</td>
+                <tr class="txt-center">
+                  <td class="bdr-bot-1s-black">From</td>
+                  <td class="bdr-bot-1s-black">To</td>
+                  <td class="bdr-bot-1s-black">Position</td>
+                  <td class="bdr-bot-1s-black">Company</td>
                 </tr>
                 <tr>
-                  <td colspan="4" style="border-bottom: 1px solid black">
+                  <td colspan="4" class="bdr-bot-1s-black">
                     &nbsp;
                   </td>
                 </tr>
                 <tr>
-                  <td colspan="4" style="border-bottom: 1px solid black">
+                  <td colspan="4" class="bdr-bot-1s-black">
                     &nbsp;
                   </td>
                 </tr>
                 <tr>
-                  <td colspan="4" style="border-bottom: 1px solid black">
+                  <td colspan="4" class="bdr-bot-1s-black">
                     &nbsp;
                   </td>
                 </tr>
                 <tr>
-                  <td colspan="4" style="border-bottom: 1px solid black">
+                  <td colspan="4" class="bdr-bot-1s-black">
                     &nbsp;
                   </td>
                 </tr>
@@ -353,7 +343,7 @@
         </tr>
         <tr>
           <td>
-            <table width="100%" style="margin-top: 10px">
+            <table class="m-t-10">
               <thead>
                 <tr height="0px">
                   <td width="15%"></td>
@@ -364,34 +354,34 @@
               </thead>
               <tbody>
                 <tr>
-                  <td colspan="3" bgcolor="black" style="color: white">
+                  <td colspan="3" class="heading-part">
                     CHARACTER REFERENCES
                   </td>
                 </tr>
-                <tr style="text-align: center">
-                  <td colspan="2" style="border-bottom: 1px solid black">
+                <tr class="txt-center">
+                  <td colspan="2" class="bdr-bot-1s-black">
                     Name
                   </td>
-                  <td style="border-bottom: 1px solid black">Occupation</td>
-                  <td style="border-bottom: 1px solid black">Address</td>
+                  <td class="bdr-bot-1s-black">Occupation</td>
+                  <td class="bdr-bot-1s-black">Address</td>
                 </tr>
                 <tr>
-                  <td colspan="4" style="border-bottom: 1px solid black">
+                  <td colspan="4" class="bdr-bot-1s-black">
                     &nbsp;
                   </td>
                 </tr>
                 <tr>
-                  <td colspan="4" style="border-bottom: 1px solid black">
+                  <td colspan="4" class="bdr-bot-1s-black">
                     &nbsp;
                   </td>
                 </tr>
                 <tr>
-                  <td colspan="4" style="border-bottom: 1px solid black">
+                  <td colspan="4" class="bdr-bot-1s-black">
                     &nbsp;
                   </td>
                 </tr>
                 <tr>
-                  <td colspan="4" style="border-bottom: 1px solid black">
+                  <td colspan="4" class="bdr-bot-1s-black">
                     &nbsp;
                   </td>
                 </tr>
@@ -401,7 +391,7 @@
         </tr>
         <tr>
           <td>
-            <table width="100%" style="margin-top: 0px">
+            <table class="m-t-0">
               <thead>
                 <tr height="0px">
                   <td width="30%"></td>
@@ -411,22 +401,18 @@
                   <td width="30%"></td>
                 </tr>
               </thead>
-              <tbody style="border: 0px;">
+              <tbody>
                 <tr>
                   <td colspan="2">&nbsp;</td>
                 </tr>
                 <tr>
-                  <td style="border-bottom: 1px solid black">
+                  <td class="bdr-bot-1s-black">
                     Res. Cert. No A:
                   </td>
                   <td></td>
                   <td
                     rowspan="6"
-                    style="
-                      border: 1px solid black;
-                      text-align: center;
-                      vertical-align: bottom;
-                    "
+                    class="txt-center bdr-1s-black vrt-align-bot"
                   >
                     Right Thumb Mark
                   </td>
@@ -434,46 +420,46 @@
                   <td></td>
                 </tr>
                 <tr>
-                  <td style="border-bottom: 1px solid black">Issued At:</td>
+                  <td class="bdr-bot-1s-black">Issued At:</td>
                   <td></td>
                   <!-- <td></td> -->
                   <td></td>
                   <td></td>
                 </tr>
                 <tr>
-                  <td style="border-bottom: 1px solid black">Issued On:</td>
+                  <td class="bdr-bot-1s-black">Issued On:</td>
                   <td></td>
                   <!-- <td></td> -->
                   <td></td>
                   <td></td>
                 </tr>
                 <tr>
-                  <td style="border-bottom: 1px solid black">SSS:</td>
+                  <td class="bdr-bot-1s-black">SSS:</td>
                   <td></td>
                   <!-- <td></td> -->
                   <td></td>
                   <td></td>
                 </tr>
                 <tr>
-                  <td style="border-bottom: 1px solid black">TIN:</td>
+                  <td class="bdr-bot-1s-black">TIN:</td>
                   <td></td>
                   <!-- <td></td> -->
                   <td></td>
                   <td></td>
                 </tr>
                 <tr>
-                  <td style="border-bottom: 1px solid black">NBI No:</td>
+                  <td class="bdr-bot-1s-black">NBI No:</td>
                   <td></td>
                   <!-- <td></td> -->
                   <td></td>
-                  <td style="border-bottom: 1px solid black"></td>
+                  <td class="bdr-bot-1s-black"></td>
                 </tr>
                 <tr>
-                  <td style="border-bottom: 1px solid black">Passport No:</td>
+                  <td class="bdr-bot-1s-black">Passport No:</td>
                   <td></td>
                   <td></td>
                   <td></td>
-                  <td style="text-align: center">Applicant Signature</td>
+                  <td class="txt-center">Applicant Signature</td>
                 </tr>
               </tbody>
             </table>

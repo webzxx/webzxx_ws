@@ -1,8 +1,46 @@
-h1.header1 {
-    color: red;
+#biodata-header {
+  text-align: center;
+  margin-top: 5px;
 }
-
-
-h1 {
-    color: blue;
+#outer.table {
+  max-width: 580px;
+  margin: auto;
+}
+.heading-part {
+  background-color: black;
+  color: white;
+}
+.txt-center {
+  text-align: center;
+}
+.vrt-align-bot {
+  vertical-align: bottom;
+}
+.bdr-1s-black {
+  border: 1px solid black;
+}
+.bdr-bot-1s-black {
+  border-bottom: 1px solid black;
+}
+.m-t-0 {
+  margin-top: 0px;
+}
+.m-t-10 {
+  margin-top: 10px;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+th,
+td {
+  font-size: smaller;
+  line-height: 1.5;
+}
+tbody {
+  border: 1px solid black;
+  border: 0px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse !important;
 }
