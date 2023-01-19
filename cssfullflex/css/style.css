@@ -1,0 +1,134 @@
+/* * {
+    border: 1px solid brown;
+} */
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.container > * {
+    flex: 1 100%;
+}
+
+/* header start */
+.navigation {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+  
+    list-style: none;
+    margin: 0;
+    background: rgb(80, 80, 3);
+  }
+
+  .navigation a {
+    text-decoration: none;
+    padding: 1em;
+    color: white;
+    display: block;
+  }
+  
+  .navigation a:hover {
+    background-color: black;
+  }
+
+  .profile-pic {
+    border-radius: 50%;
+    border: 5px solid white;
+    width: 25px;
+    height: 25px;
+  }
+/* header end */
+
+/* main start */
+.main {
+    text-align: left;
+    background: rgb(7, 182, 7);
+}
+/* main end */
+
+/* aside start */
+.aside-left {
+    background: grey;
+}
+.aside-right {
+    background: lightblue;
+}
+/* aside end */
+
+/* footer start */
+.footer {
+    background: salmon;
+}
+/* footer end */
+
+@media all and (max-width: 519px) {
+    /* header start */
+    .navigation {
+        flex-flow: column wrap;
+        padding: 0;
+    }
+
+    .navigation a {
+        text-align: center;
+        padding: 10px;
+        border-top: 1px solid rgb(17, 17, 17);
+        border-bottom: 1px solid rgb(17, 17, 17);
+      }
+    /* header end */
+}
+
+@media all and (min-width: 520px) {
+    /* header start */
+    .navigation {
+        justify-content: space-around;
+      }
+    /* header end */
+  
+    /* main start */
+    /* main end */
+  
+    /* aside start */
+    .aside {
+        flex: 1 0;
+    }
+    /* aside end */
+  
+    /* footer start */
+    /* footer end */
+  }
+
+@media all and (min-width: 750px) {
+  /* header start */
+  .navigation {
+    justify-content: flex-end;
+  }
+  /* header end */
+
+  /* main start */
+  .main {
+    flex: 3 0px;
+    order: 2;
+  }
+  /* main end */
+
+  /* aside start */
+  .aside-left {
+    flex: 1 0px;
+    order: 1;
+  }
+  .aside-right {
+    flex: 1 0px;
+    order: 3;
+  }
+  /* aside end */
+
+  /* footer start */
+  .footer {
+    order: 4;
+  }
+  /* footer end */
+}
